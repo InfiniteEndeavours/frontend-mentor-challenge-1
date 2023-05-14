@@ -31,8 +31,8 @@ body {
 
 /* Card Styling */
 .card {
-    margin: 10em 2em 2em 2em;
-    max-width: 80%;
+    margin: auto auto 1em;
+    max-width: 50%;
     padding: 2em;
     border-radius: 20px;
     background-color: var(--white);
