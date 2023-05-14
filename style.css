@@ -26,12 +26,12 @@ body {
 .container {
     display: grid;
     place-content: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 /* Card Styling */
 .card {
-    margin: 8em auto 8em;
+    margin: auto auto 1em;
     max-width: 50%;
     padding: 2em;
     border-radius: 20px;
@@ -47,18 +47,14 @@ body {
 }
 
 .card h1 {
-     font-size: 1.3rem   ;
-     color: var(--dark-blue);
- }
+    font-size: 1.3rem;
+    color: var(--dark-blue);
+}
 
 .card p {
     font-size: 0.9rem;
     color: var(--grayish-blue)
 }
-
-
-
-
 
 /* Predefined styles */
 .attribution a {
