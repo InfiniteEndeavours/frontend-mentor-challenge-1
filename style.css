@@ -47,12 +47,12 @@ body {
 }
 
 .card h1 {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     color: var(--dark-blue);
 }
 
 .card p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: var(--grayish-blue)
 }
 
