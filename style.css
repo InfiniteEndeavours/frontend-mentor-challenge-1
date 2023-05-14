@@ -11,28 +11,32 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+/* Body styling */
 body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
     font-size: 15px;
-
     font-family: Outfit, Helvetica, sans-serif;
-
     text-align: center;
-
     background-color: var(--light-gray);
 }
 
+/* Container - Grid */
+.container {
+    display: grid;
+    place-content: center;
+    height: 80vh;
+}
+
+/* Card Styling */
 .card {
-    margin: 12em 2em 2em 2em;
-    max-width: 24em;
+    margin: 10em 2em 2em 2em;
+    max-width: 80%;
     padding: 2em;
-
     border-radius: 20px;
-
     background-color: var(--white);
+    box-shadow: 5px 5px 5px var(--grayish-blue);
 }
 
 .card img {
@@ -41,28 +45,17 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-
-h1 {
-    color: var(--dark-blue);
-}
-
 .card p {
     color: var(--grayish-blue)
 }
 
-@media screen and (min-width: 480px) {
-    .card {
-        margin: 12em auto 2em auto;
-    }
+.card h1 {
+    color: var(--dark-blue);
 }
+
+
 
 /* Predefined styles */
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
