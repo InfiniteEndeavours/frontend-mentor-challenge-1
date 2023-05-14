@@ -26,13 +26,13 @@ body {
 .container {
     display: grid;
     place-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Card Styling */
 .card {
-    margin: auto auto 1em;
-    max-width: 50%;
+    margin: auto 1rem 1em;
+    max-width: 20rem;
     padding: 2em;
     border-radius: 20px;
     background-color: var(--white);
