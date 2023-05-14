@@ -1,0 +1,68 @@
+/* ----- Style Guide ----- */
+
+/* Google Font Import - Outfit - Weight: 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Color variables to reference throughout style sheet */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-size: 15px;
+
+    font-family: Outfit, Helvetica, sans-serif;
+
+    text-align: center;
+
+    background-color: var(--light-gray);
+}
+
+.card {
+    margin: 12em 2em 2em 2em;
+    max-width: 24em;
+    padding: 2em;
+
+    border-radius: 20px;
+
+    background-color: var(--white);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: var(--dark-blue);
+}
+
+.card p {
+    color: var(--grayish-blue)
+}
+
+@media screen and (min-width: 480px) {
+    .card {
+        margin: 12em auto 2em auto;
+    }
+}
+
+/* Predefined styles */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
