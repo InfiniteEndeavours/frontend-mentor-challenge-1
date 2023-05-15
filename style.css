@@ -9,6 +9,7 @@
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
+    font-size: 0.9375rem
 }
 
 /* Body styling */
@@ -16,7 +17,6 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 15px;
     font-family: Outfit, Helvetica, sans-serif;
     text-align: center;
     background-color: var(--light-gray);
@@ -31,7 +31,7 @@ body {
 
 /* Card Styling */
 .card {
-    margin: auto 1rem 1em;
+    margin: 1rem;
     max-width: 20rem;
     padding: 2em;
     border-radius: 20px;
@@ -47,30 +47,15 @@ body {
 }
 
 .card h1 {
-    font-size: 0.9rem;
     color: var(--dark-blue);
 }
 
 .card p {
-    font-size: 0.7rem;
     color: var(--grayish-blue)
 }
 
-/* ----- Media Queries ----- */
-/* Update font-size on larger screens */
-@media screen and (min-width: 500px) {
-    .card h1,
-    .card p {
-        font-size: 1.3rem;
-    }
-
-    .attribution {
-        font-size: 1.3rem;
-    }
-}
-
 /* Predefined styles */
-.attribution  {
+.attribution {
     color: hsl(228, 45%, 44%);
     font-size: 0.9rem;
 }
